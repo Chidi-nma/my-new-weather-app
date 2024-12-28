@@ -1,0 +1,11 @@
+body {
+  background-image: url("images/background.jpg");
+  /* background-color: aqua; */
+}
+.container {
+  margin: 0 auto;
+  /* background: red; */
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+}
