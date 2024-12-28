@@ -20,19 +20,35 @@
 
     <div class="container">
       <header>
-        <form>
-          <input type="text" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" id="search-button" />
+        <form class="search-form">
+          <input
+            type="text"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input
+            type="submit"
+            value="Search"
+            id="search-button"
+            class="search-form-button"
+          />
         </form>
       </header>
       <section>
-        <h1>Paris</h1>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Paris</h1>
 
-        <p>
-          Friday 20:01, fog Humidity: <br />
-          98%, Wind: 2.06km/h
-        </p>
-        <p>🌟 1℃</p>
+            <p class="weather-app-details">
+              Friday 20:01, fog Humidity: <br />
+              <strong>98%</strong>, Wind: <strong> 2.06km/h</strong>
+            </p>
+          </div>
+          <div>
+            <p>🌟 1℃</p>
+          </div>
+        </div>
       </section>
 
       <footer>

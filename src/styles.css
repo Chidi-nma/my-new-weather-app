@@ -13,7 +13,8 @@ video {
   z-index: -100;
 }
 a {
-  color: #4caf4f;
+  color: #62929a;
+  font-weight: 600;
 }
 .container {
   margin: 45px auto;
@@ -22,5 +23,60 @@ a {
   padding: 30px;
   width: 100%;
   max-width: 800px;
-  border-radius: 16px;
+  border-radius: 28px;
+}
+
+header {
+  border-bottom: 0.1px solid #62929a;
+  padding: 0 0 30px 0;
+}
+
+.search-form-input {
+  background-color: #efecec;
+  border: none;
+  border-radius: 980px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background: #62929a;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 980px;
+  color: white;
+  font-weight: 500;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(225, 225, 225, 0.7);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+footer {
+  border-top: 0.1px solid #62929a;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(225, 225, 225, 0.8);
 }
