@@ -13,13 +13,14 @@ video {
   z-index: -100;
 }
 a {
-  color: #62929a;
-  font-weight: 600;
+  color: #bae8e8;
+  font-weight: 500;
 }
 .container {
   margin: 45px auto;
   background: black;
-  background-color: rgba(80, 80, 80, 0.7);
+  background-color: rgb(14 16 21 / 78%);
+  /* rgb(8 6 6 / 70%) */
   padding: 30px;
   width: 100%;
   max-width: 800px;
@@ -104,7 +105,6 @@ section {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  /* margin: 5px; */
 }
 
 .weather-forecast-date {
@@ -112,7 +112,7 @@ section {
   color: rgba(225, 225, 225, 0.7);
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .weather-forecast-icon {
@@ -125,7 +125,7 @@ section {
   color: #bae8e8;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
 .weather-forecast-temperature {
