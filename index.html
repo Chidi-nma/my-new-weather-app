@@ -12,7 +12,7 @@
     />
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Chidi's Weather App</title>
+    <title>Chidi's Vanilla Weather App</title>
   </head>
   <body>
     <video autoplay muted loop>
@@ -21,6 +21,7 @@
 
     <div class="container">
       <header>
+        <!-- form field and button  -->
         <form class="search-form" id="search-form">
           <input
             type="text"
@@ -37,6 +38,7 @@
           />
         </form>
       </header>
+      <!-- City, weather details, temperature and icon -->
       <section>
         <div class="weather-app-data">
           <div>
@@ -56,7 +58,10 @@
           </div>
         </div>
       </section>
-
+      <section class="weather-forecast" id="forecast">
+        <!-- forecast section -->
+      </section>
+      <!-- Footer section -->
       <footer>
         This project was coded by
         <a href="https://github.com/dashboard">Chidinma Ikebujo</a>, is
